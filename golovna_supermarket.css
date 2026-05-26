@@ -1,0 +1,60 @@
+body {
+    font-family: Courier New;
+    background-image: url(https://faine-misto.vinnica.ua/wp-content/uploads/2025/09/stolyarna-majsternya-vdoma.webp);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(255, 138, 4);
+    font-size: 110px;
+    margin: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: rgb(77, 41, 0);
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    text-decoration: none;
+    background: lightsalmon;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+}
+
+.menu>li {
+    border: 5px solid brown;
+    padding: 10px;
+}
+
+header {
+    margin: 150px 0;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

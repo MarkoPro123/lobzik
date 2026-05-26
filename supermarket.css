@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    padding: 0 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: space-between;
+    background-image: url(https://faine-misto.vinnica.ua/wp-content/uploads/2025/09/stolyarna-majsternya-vdoma.webp);
+    flex-direction: column;
+    background-size: cover;
+    font-family: Courier New;
+}
+
+.orbit-container {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.webuniverse {
+    width: 500px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    animation: orbit 4s linear infinite;
+}
+
+@keyframes orbit {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(80px) rotate(0deg)
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(80px) rotate(-360deg)
+    }
+}
+
+h1 {
+    color: rgba(153, 61, 0, 0.877);
+    font-size: 75px;
+}
+
+a {
+
+    font-size: 50px;
+    text-decoration: none;
+    color: chartreuse;
+}
