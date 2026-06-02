@@ -18,7 +18,7 @@ ul {
 }
 
 .desc {
-    max-width: 1400px;
+    max-width: 1500px;
     height: auto;
     color: white;
     font-size: 20px;
@@ -62,7 +62,7 @@ h1 {
     color: rgb(44, 82, 0);
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .menu>li {
         padding: 1px;
     }

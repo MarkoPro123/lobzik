@@ -48,10 +48,10 @@ a {
     color: chartreuse;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .webuniverse {
         top: 7%;
-        width: 400px;
+        width: 500px;
         left: 10%;
     }
 
