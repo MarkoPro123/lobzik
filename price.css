@@ -51,7 +51,7 @@ ul {
     color: blue;
 }
 
-.ghj3{
+.ghj3 {
     color: rgb(202, 133, 4);
     text-decoration: none;
     font-size: 23px;
@@ -83,4 +83,18 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width:400px) {
+    .menu>li {
+        padding: 1px;
+    }
+
+    .menu {
+        font-size: 20px;
+    }
+
+    .ghj {
+        width: 100%;
+    }
 }

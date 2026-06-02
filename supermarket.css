@@ -8,6 +8,7 @@ body {
     background-image: url(https://faine-misto.vinnica.ua/wp-content/uploads/2025/09/stolyarna-majsternya-vdoma.webp);
     flex-direction: column;
     background-size: cover;
+    background-repeat: no-repeat;
     font-family: Courier New;
 }
 
@@ -45,4 +46,19 @@ a {
     font-size: 50px;
     text-decoration: none;
     color: chartreuse;
+}
+
+@media screen and (max-width:400px) {
+    .webuniverse {
+        top: 7%;
+        width: 400px;
+        left: 10%;
+    }
+
+    .orbit-container {
+        width: 500px;
+        height: 500px;
+        position: relative;
+    }
+
 }
